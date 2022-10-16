@@ -11,6 +11,7 @@
 }
 
 :root{
+  
   --color-bg : #1f1f38;
   --color-bg-variant : #2c2c6c;
   --color-primary : #4db5ff;
@@ -21,8 +22,8 @@
   --transition: all 400ms ease;
 
   --container-width-lg : 75%;
-  --container-width-md : 80%;
-  --container-width-ms : 90%;
+  --container-width-md : 86%;
+  --container-width-sm : 90%;
 }
 
 body {
@@ -61,7 +62,6 @@ h1{
 
 section{
   margin-top: 8rem;
-  height: 100vh; 
 }
 
 section > h2, section > h5{
@@ -118,7 +118,7 @@ img{
 /* media query for MEDIUM devices */
 
 @media screen and (max-width: 1024px){
-  .cotainer{
+  .container{
     width: var(--container-width-md);
   }
   section{
@@ -130,7 +130,7 @@ img{
 /* media query for SMALL devices */
 
 @media screen and (max-width: 600px){
-  .cotainer{
+  .container{
     width: var(--container-width-sm);
   }
   section > h2{
