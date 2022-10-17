@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "avatar": "IMG1",
+      "name": "Ogundimu Adesola",
+      "review": "Gabriel created a fantastic e-commerce webite for me...it is such a lovely website"
+    },
+    {
+      "id": 2,
+      "avatar": "IMG2",
+      "name": "Sanusi Victor",
+      "review": "We worked together on a chat app, it was great working with him"
+    },
+    {
+      "id": 3,
+      "avatar": "IMG3",
+      "name": "Minasu Olabisi",
+      "review": "He's so good with react..I was the one that put him through...I'm so proud of him to have gone this far with react JS"
+    },
+    {
+      "id": 4,
+      "avatar": "IMG4",
+      "name": "Raheem Korede",
+      "review": "helped my dad to creat an application that helped to boast our petroleum business"
+    }
+  ]
+  
