@@ -28,7 +28,7 @@
 
 .btn_primary{
     background: var(--color-primary-variant);
-    color: white;
+    color: var(--color-white);
 }
 
 .portfolio_item_cta{
