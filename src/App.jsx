@@ -1,3 +1,5 @@
+import { useRef } from 'react';
+
 import './App.css';
 import Header from './component/header/Header';
 import Nav from './component/nav/Nav';
@@ -10,6 +12,21 @@ import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
 
 function App() {
+
+  // const aboutNav = useRef(null);
+  // const experienceNav = useRef(null);
+  // const servicesNav = useRef(null);
+  // const contactNav = useRef(null);
+
+  // https://meet.google.com/htu-kvrb-vtb
+
+  // const scrollToComponent = (elementRef) => {
+    // window.scrollTo({
+      // top: elementRef.current.offsetTop,
+      // behavior: 'smooth'
+    // })
+  // }
+
   return (
     <div className='hold'>
       <Header/>

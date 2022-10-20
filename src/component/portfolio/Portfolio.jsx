@@ -18,11 +18,11 @@ const Portfolio = () => {
 
   // console.log(portfolio.title);
 
-  React.useEffect(() => {
-    fetch(PortfolioData)
-      .then(res => res.json())
-      .then(data => setPortfolio(data))
-    }, [])
+  // React.useEffect(() => {
+  //   fetch(PortfolioData)
+  //     .then(res => res.json())
+  //     .then(data => setPortfolio(data))
+  //   }, [])
 
 
   // React.useEffect

@@ -7,75 +7,29 @@ import {BsBookmarkStar} from 'react-icons/bs'
 import {RiServiceLine} from 'react-icons/ri'
 import { useState } from 'react'
 
-const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#');
-
-  // const hr = document.getElementsByTagName('a');
-  // console.log(hr);
+const Nav = (props) => {
+  const [activeNav, setActiveNav] = useState('#home');
 
   const toggleActiveNav = (event) => {
-    // console.log(event);
-    setActiveNav(event.target.hash) 
-  }
-  
+    // console.log("event >>>>>",event);
+    setActiveNav(event.target.hash)
+    // console.log("active nav",activeNav);
+  } 
   
   return (
-    // <nav>
-    //   <a 
-    //     href="#" 
-    //     onClick={() => setActiveNav('#')} 
-    //     className={activeNav === '#' ? 'active' : ''}
-    //   >
-    //       <AiFillHome/> 
-    //   </a>
-    //   <a 
-    //     href="#about"
-    //     onClick={() => setActiveNav('#about')}
-    //     className={activeNav === '#about' ? 'active' : ''}   
-    //   >
-    //       <FaUserCircle/>
-    //   </a>
-
-    //   <a 
-    //     href="#experience"
-    //     onClick={() => setActiveNav('#experience')}
-    //     className={activeNav === '#experience' ? 'active' : ''}
-    //   >
-    //     <BsBookmarkStar/>
-    //   </a>
-    
-    //   <a 
-    //     href="#services"
-    //     onClick={() => setActiveNav('#services')}
-    //     className={activeNav === '#services' ? 'active' : ''}
-    //   >
-    //     <RiServiceLine/>
-    //   </a>
-      
-    //   <a 
-    //     href="#contact"
-    //     onClick={() => setActiveNav('#contact')}
-    //     className={activeNav === '#contact' ? 'active' : ''}
-    //   >
-    //     <BiMessageRoundedDots/>
-    //   </a>
-    // </nav>
-    
-    
-    
     
     <nav>
       
       <a 
-        href="#" 
+        href="#home" 
         onClick={toggleActiveNav} 
-        className={activeNav === '#' ? 'active' : ''}
+        className={activeNav === '#home' ? 'active' : ''}
       >
           <AiFillHome/> 
       </a>
       <a 
         href="#about"
-        onClick={toggleActiveNav}
+        onClick={toggleActiveNav} 
         className={activeNav === '#about' ? 'active' : ''}   
       >
           <FaUserCircle/>

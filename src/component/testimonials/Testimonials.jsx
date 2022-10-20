@@ -35,7 +35,7 @@ const Testimonials = () => {
       >
         {
           testimonial.map(({avatar, name, review}, index)  => (
-            <SwiperSlide className="testimonial">
+            <SwiperSlide key={index} className="testimonial">
         <div className="client_avatar">
             <img src={IMG1} alt="me" />
         </div>
