@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import React from 'react';
 
 import './App.css';
 import Header from './component/header/Header';
@@ -12,6 +13,12 @@ import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
 
 function App() {
+
+  const [darkmode, setDarkMode] = React.useState(true);
+
+  const toggleDarkMode = () => {
+    setDarkMode(prevDarkMode => !prevDarkMode)
+  }
 
   // const aboutNav = useRef(null);
   // const experienceNav = useRef(null);

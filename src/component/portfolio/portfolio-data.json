@@ -1,42 +1,42 @@
 [
     {
       "id": 1,
-      "image": "IMG1",
+      "image": "../../../portfolioImages/portfolio1.webp",
       "title": "hats",
       "github": "https://github.com/Gabbee24/react-form",
       "demo" : "https://dribbble.com/Alien_pixels"
     },
     {
       "id": 2,
-      "image": "../../assets/portfolio2.webp",
+      "image": "../../../portfolioImages/portfolio2.webp",
       "title": "jackets",
       "github": "https://github.com/Gabbee24/react-form",
       "demo" : "https://dribbble.com/Alien_pixels"
     },
     {
       "id": 3,
-      "image": "../../assets/portfolio3.webp",
+      "image": "../../../portfolioImages/portfolio3.webp",
       "title": "sneakers",
       "github": "https://github.com/Gabbee24/react-form",
       "demo" : "https://dribbble.com/Alien_pixels"
     },
     {
       "id": 4,
-      "image": "../../assets/portfolio4.webp",
+      "image": "../../../portfolioImages/portfolio4.webp",
       "title": "womens",
       "github": "https://github.com/Gabbee24/react-form",
       "demo" : "https://dribbble.com/Alien_pixels"
     },
     {
       "id": 5,
-      "image": "../../assets/portfolio5.webp",
+      "image": "../../../portfolioImages/portfolio5.webp",
       "title": "mens",
       "github": "https://github.com/Gabbee24/react-form",
       "demo" : "https://dribbble.com/Alien_pixels"
     },
     {
         "id": 6,
-        "image": "../../assets/portfolio6.webp",
+        "image": "../../../portfolioImages/portfolio6.webp",
         "title": "mens",
         "github": "https://github.com/Gabbee24/react-form",
         "demo" : "https://dribbble.com/Alien_pixels"
