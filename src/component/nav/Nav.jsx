@@ -21,6 +21,7 @@ const Nav = (props) => {
     <nav>
       
       <a 
+      title='home'
         href="#home" 
         onClick={toggleActiveNav} 
         className={activeNav === '#home' ? 'active' : ''}
@@ -28,6 +29,7 @@ const Nav = (props) => {
           <AiFillHome/> 
       </a>
       <a 
+        title='about'
         href="#about"
         onClick={toggleActiveNav} 
         className={activeNav === '#about' ? 'active' : ''}   
@@ -35,15 +37,9 @@ const Nav = (props) => {
           <FaUserCircle/>
       </a>
 
-      <a 
-        href="#experience"
-        onClick={toggleActiveNav}
-        className={activeNav === '#experience' ? 'active' : ''}
-      >
-        <BsBookmarkStar/>
-      </a>
     
       <a 
+        title='services'
         href="#services"
         onClick={toggleActiveNav}
         className={activeNav === '#services' ? 'active' : ''}
@@ -52,6 +48,7 @@ const Nav = (props) => {
       </a>
       
       <a 
+        title='contact'
         href="#contact"
         onClick={toggleActiveNav}
         className={activeNav === '#contact' ? 'active' : ''}
@@ -59,6 +56,14 @@ const Nav = (props) => {
         <BiMessageRoundedDots/>
       </a>
 
+      <a 
+        title='experience'
+        href="#experience"
+        onClick={toggleActiveNav}
+        className={activeNav === '#experience' ? 'active' : ''}
+      >
+        <BsBookmarkStar/>
+      </a>
     </nav>
   )
 }
