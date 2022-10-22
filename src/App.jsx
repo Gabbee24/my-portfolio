@@ -14,10 +14,10 @@ import Footer from './component/footer/Footer';
 
 function App() {
 
-  const [darkmode, setDarkMode] = React.useState(true);
+  const [lightMode, setLightMode] = React.useState(false);
 
-  const toggleDarkMode = () => {
-    setDarkMode(prevDarkMode => !prevDarkMode)
+  const toggleLightMode = () => {
+    setLightMode(prevLightMode => !prevLightMode)
   }
 
   // const aboutNav = useRef(null);
@@ -35,16 +35,35 @@ function App() {
   // }
 
   return (
-    <div className='hold'>
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+    <div className={lightMode ? 'light' : ''}>
+      <Header
+        lightMode={lightMode}
+      />
+      <Nav
+        toggleLightMode={toggleLightMode}
+        lightMode={lightMode}
+      />
+      <About
+        lightMode={lightMode}
+      />
+      <Experience
+        lightMode={lightMode}
+      />
+      <Services
+        lightMode={lightMode}
+      />
+      <Portfolio
+        lightMode={lightMode}
+      />
+      <Testimonials
+        lightMode={lightMode}
+      />
+      <Contact
+        lightMode={lightMode}
+      />
+      <Footer
+        lightMode={lightMode}
+      />
     </div>
   );
 }

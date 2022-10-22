@@ -1,13 +1,16 @@
 import React from 'react'
 import './Nav.css'
+
+import Lightmode from '../lightmode/Lightmode'
+
 import {AiFillHome} from 'react-icons/ai'
 import {FaUserCircle} from 'react-icons/fa'
 import {BiMessageRoundedDots} from 'react-icons/bi'
-import {BsBookmarkStar} from 'react-icons/bs'
 import {RiServiceLine} from 'react-icons/ri'
 import { useState } from 'react'
 
-const Nav = (props) => {
+
+const Nav = ({lightMode, toggleLightMode}) => {
   const [activeNav, setActiveNav] = useState('#home');
 
   const toggleActiveNav = (event) => {
@@ -18,7 +21,7 @@ const Nav = (props) => {
   
   return (
     
-    <nav>
+    <nav className={lightMode ? 'light' : ''} >
       
       <a 
       title='home'
@@ -26,7 +29,7 @@ const Nav = (props) => {
         onClick={toggleActiveNav} 
         className={activeNav === '#home' ? 'active' : ''}
       >
-          <AiFillHome/> 
+          <AiFillHome className='ssvg'/> 
       </a>
       <a 
         title='about'
@@ -34,7 +37,7 @@ const Nav = (props) => {
         onClick={toggleActiveNav} 
         className={activeNav === '#about' ? 'active' : ''}   
       >
-          <FaUserCircle/>
+          <FaUserCircle className='ssvg'/>
       </a>
 
     
@@ -44,7 +47,7 @@ const Nav = (props) => {
         onClick={toggleActiveNav}
         className={activeNav === '#services' ? 'active' : ''}
       >
-        <RiServiceLine/>
+        <RiServiceLine className='ssvg'/>
       </a>
       
       <a 
@@ -53,16 +56,11 @@ const Nav = (props) => {
         onClick={toggleActiveNav}
         className={activeNav === '#contact' ? 'active' : ''}
       >
-        <BiMessageRoundedDots/>
+        <BiMessageRoundedDots className='ssvg'/>
       </a>
 
-      <a 
-        title='experience'
-        href="#experience"
-        onClick={toggleActiveNav}
-        className={activeNav === '#experience' ? 'active' : ''}
-      >
-        <BsBookmarkStar/>
+      <a onClick={toggleLightMode}>
+        <Lightmode/>
       </a>
     </nav>
   )
