@@ -37,8 +37,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            There's always a way out
+          <p> <i>
+
+            "There's always a way out..."
+          </i>
           </p>
           <a href="#contact" className='btn btn_primary'>Let's Talk</a>
         </div>

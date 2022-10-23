@@ -122,6 +122,7 @@ img{
 }
 .light svg{
   color: black;
+  --clr: red;
 }
 
 .light div{
