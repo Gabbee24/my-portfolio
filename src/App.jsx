@@ -20,24 +20,28 @@ function App() {
     setLightMode(prevLightMode => !prevLightMode)
   }
 
-  // const aboutNav = useRef(null);
-  // const experienceNav = useRef(null);
-  // const servicesNav = useRef(null);
-  // const contactNav = useRef(null);
+  const homeFooter = useRef(null);
+  const aboutFooter = useRef(null);
+  const experienceFooter = useRef(null);
+  const servicesFooter = useRef(null);
+  const portfolioFooter = useRef(null);
+  const testimonialsFooter = useRef(null);
+  const contactFooter = useRef(null);
 
-  // https://meet.google.com/htu-kvrb-vtb
+  //https://meet.google.com/htu-kvrb-vtb
 
-  // const scrollToComponent = (elementRef) => {
-    // window.scrollTo({
-      // top: elementRef.current.offsetTop,
-      // behavior: 'smooth'
-    // })
-  // }
+  const scrollToComponent = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <div className={lightMode ? 'light' : ''}>
       <Header
         lightMode={lightMode}
+        reff = {homeFooter}
       />
       <Nav
         toggleLightMode={toggleLightMode}
@@ -45,24 +49,37 @@ function App() {
       />
       <About
         lightMode={lightMode}
+        reff = {aboutFooter}
       />
       <Experience
         lightMode={lightMode}
+        reff = {experienceFooter}
       />
       <Services
         lightMode={lightMode}
+        reff = {servicesFooter}
       />
       <Portfolio
         lightMode={lightMode}
+        reff = {portfolioFooter}
       />
       <Testimonials
         lightMode={lightMode}
+        reff = {testimonialsFooter}
       />
       <Contact
         lightMode={lightMode}
+        reff = {contactFooter}
       />
       <Footer
         lightMode={lightMode}
+        clickHomeFooter = {() => scrollToComponent(homeFooter)}
+        clickAboutFooter = {() => scrollToComponent(aboutFooter)}
+        clickExperienceFooter = {() => scrollToComponent(experienceFooter)} 
+        clickServicesFooter = {() => scrollToComponent(servicesFooter)}
+        clickPortfolioFooter = {() => scrollToComponent(portfolioFooter)}
+        clickTestimonialsFooter = {() => scrollToComponent(testimonialsFooter)} 
+        clickContactFooter = {() => scrollToComponent(contactFooter)}
       />
     </div>
   );

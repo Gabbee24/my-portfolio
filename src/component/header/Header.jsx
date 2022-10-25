@@ -4,9 +4,9 @@ import CTA from './CTA'
 import ME from '../../assets/me.jpg'
 import HeaderSocials from './HeaderSocials'
 
-const Header = () => {
+const Header = ({lightMode, reff}) => {
   return (
-    <header>
+    <header ref={reff}>
         <div id='home' className="container header_container">
             <h5>Hi, I am</h5>
             <h1>Atunwa Gabriel</h1>
@@ -18,7 +18,7 @@ const Header = () => {
                 <img className='header_img' src={ME} alt="me" />
             </div>
 
-            <a href="#contact" className='scroll_down'>Scroll Down</a>
+            <a href="#footer" className='scroll_down'>Scroll Down</a>
         </div>
     </header>
   )

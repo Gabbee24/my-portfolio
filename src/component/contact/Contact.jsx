@@ -16,7 +16,7 @@ import emailjs from 'emailjs-com'
 //import the style
 import './Contact.css';
 
-const Contact = () => {
+const Contact = ({lightMode, reff}) => {
 
   const form = useRef();
 
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <section ref={reff} id='contact'>
       <h5>Get in touch</h5>
       <h2>Contact Me</h2>
 

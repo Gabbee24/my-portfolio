@@ -1,8 +1,6 @@
 import React from 'react'
 import './Testimonials.css'
 
-import IMG1 from '../../assets/me1.jpg'
-
 import testimonialData from './testimonial_data.json';
 
 import TestimonialComponent from './Testimonial.component'
@@ -16,7 +14,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const Testimonials = () => {
+const Testimonials = (lightMode, reff) => {
 
   const [testimonial, setTestimonial] = React.useState(testimonialData)
 

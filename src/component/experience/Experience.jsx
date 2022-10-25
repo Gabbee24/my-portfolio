@@ -2,9 +2,9 @@ import React from 'react'
 import './Experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs';
 
-const Experience = () => {
+const Experience = ({lightMode, reff}) => {
   return (
-    <section id='experience'>
+    <section ref={reff} id='experience'>
       <h5>Experiences I have</h5>
       <h2>My skills</h2>
 

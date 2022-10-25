@@ -5,9 +5,9 @@ import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
-const About = () => {
+const About = ({lightMode, reff}) => {
   return (
-    <section id='about'>
+    <section ref={reff} id='about'>
       <h5>Get to know</h5>
       <h2>About me</h2>
 

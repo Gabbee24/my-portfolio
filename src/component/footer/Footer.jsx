@@ -6,19 +6,28 @@ import {BsInstagram} from 'react-icons/bs';
 import {AiFillTwitterCircle} from 'react-icons/ai';
 
 
-const Footer = () => {
+const Footer = ({ 
+  lightMode,
+  clickHomeFooter, 
+  clickAboutFooter ,
+  clickExperienceFooter , 
+  clickServicesFooter  ,
+  clickPortfolioFooter ,
+  clickTestimonialsFooter   ,
+  clickContactFooter 
+}) => {
   return (
-    <footer>
-      <a href="#" className='footer_logo'>GABRIEL</a>
+    <footer id='footer'>
+      <a href="#" className='footer_logo'>GABRIEL LOGO</a>
 
       <ul className="footer_links">
-        <li><a href="#">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="experience">Experience</a></li>
-        <li><a href="services">Services</a></li>
-        <li><a href="portfolio">Portfolio</a></li>
-        <li><a href="testimonials">Testimonials</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li ><a onClick={clickHomeFooter} >Home</a></li>
+        <li><a onClick={clickAboutFooter}>About</a></li>
+        <li> <a onClick={clickExperienceFooter}>Experience</a></li>
+        <li> <a onClick={clickServicesFooter}>Services</a></li>
+        <li> <a onClick={clickPortfolioFooter}>Portfolio</a></li>
+         <li> <a onClick={clickTestimonialsFooter}>Testimonials</a></li>
+        <li> <a onClick={clickContactFooter}>Contact</a></li>
       </ul>
 
       <div className="footer_socials">

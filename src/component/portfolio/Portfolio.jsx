@@ -5,7 +5,7 @@ import PortfolioData from './portfolio-data.json';
 
 import PortfolioComponent from './Portfolio.component';
 
-const Portfolio = () => {
+const Portfolio = ({lightMode, reff}) => {
 
   const [portfolio, setPortfolio] = React.useState(PortfolioData);
 
@@ -21,7 +21,7 @@ const Portfolio = () => {
   // React.useEffect
 
   return (
-    <section id='portfolio'>
+    <section ref={reff} id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
