@@ -1,31 +1,31 @@
 [
     {
       "id": 1,
-      "image": "../../../portfolioImages/portfolio1.webp",
+      "image": "../../../portfolioImages/geoplex.png",
       "title": "Geoplex Website",
-      "github": "https://github.com/Gabbee24/react-form",
-      "demo" : "https://dribbble.com/Alien_pixels"
+      "github": "https://github.com/Gabbee24?tab=repositories",
+      "demo" : "https://geoplex-web.vercel.app"
     },
     {
       "id": 2,
-      "image": "../../../portfolioImages/portfolio2.webp",
-      "title": "jackets",
-      "github": "https://github.com/Gabbee24/react-form",
-      "demo" : "https://dribbble.com/Alien_pixels"
+      "image": "../../../portfolioImages/carshowcase.png",
+      "title": "Car Showcase",
+      "github": "https://github.com/Gabbee24/carshowcase",
+      "demo" : "https://carshowcase-ashy.vercel.app"
     },
     {
       "id": 3,
-      "image": "../../../portfolioImages/portfolio3.webp",
-      "title": "sneakers",
-      "github": "https://github.com/Gabbee24/react-form",
-      "demo" : "https://dribbble.com/Alien_pixels"
+      "image": "../../../portfolioImages/tasktracker.png",
+      "title": "Task Tracker",
+      "github": "https://github.com/Gabbee24/task-tracker",
+      "demo" : "https://task-tracker-one-rho.vercel.app"
     },
     {
       "id": 4,
-      "image": "../../../portfolioImages/portfolio4.webp",
-      "title": "womens",
-      "github": "https://github.com/Gabbee24/react-form",
-      "demo" : "https://dribbble.com/Alien_pixels"
+      "image": "../../../portfolioImages/login.png",
+      "title": "Login Dashboard",
+      "github": "https://github.com/Gabbee24",
+      "demo" : "https://logindashboardnext.vercel.app"
     },
     {
       "id": 5,

@@ -14,7 +14,7 @@ const About = ({lightMode, reff}) => {
       <div className="about_container container">
         <div className="about_me">
           <div className="about_me_image">
-            <img style={{'width': '160px'}} src={ME3} alt="About Image" />
+            <img style={{'width': '160px'}} src={ME3} alt="About" />
           </div>
         </div>
 
