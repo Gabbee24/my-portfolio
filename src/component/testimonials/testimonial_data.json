@@ -2,8 +2,8 @@
     {
       "id": 1,
       "avatar": "../../../testimonialImages/me3.jpg",
-      "name": "Ogundimu Adesola",
-      "review": "Gabriel created a fantastic e-commerce webite for me...it is such a lovely website"
+      "name": "Olabisi Minasu",
+      "review": "Gabriel and I collaborated and help with the redesign of GEOPLEX website, we also created a Content Management System (CMS) which will help GEOPLEX update the content of their website dynamically on their own"
     },
     {
       "id": 2,
@@ -14,8 +14,8 @@
     {
       "id": 3,
       "avatar": "../../../testimonialImages/bg-texture-1.jpg",
-      "name": "Minasu Olabisi",
-      "review": "He's so good with react..I was the one that put him through...I'm so proud of him to have gone this far with react JS"
+      "name": "Ogundimu Adesola",
+      "review": "Gabriel created a fantastic e-commerce webite for me...it is such a lovely website"
     },
     {
       "id": 4,

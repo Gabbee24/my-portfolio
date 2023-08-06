@@ -10,7 +10,7 @@ const Experience = ({lightMode, reff}) => {
 
       <div className="container experience_container">
         <div className="experience_frontend">
-          <h3>Frontend Development</h3>
+          <h3>Front Development</h3>
           <div className="experience_content">
 
             <article className="experience_details">
@@ -56,7 +56,31 @@ const Experience = ({lightMode, reff}) => {
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
-                <h4>JQuery</h4>
+                <h4>React Query</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            
+            <article className="experience_details">
+              <BsPatchCheckFill className='experience_details_icon'/>
+              <div>
+                <h4>Redux</h4>
+                <small className='text-light'>Basic</small>
+              </div>
+            </article>
+            
+            <article className="experience_details">
+              <BsPatchCheckFill className='experience_details_icon'/>
+              <div>
+                <h4>NextJS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            
+            <article className="experience_details">
+              <BsPatchCheckFill className='experience_details_icon'/>
+              <div>
+                <h4>React Native</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -105,6 +129,14 @@ const Experience = ({lightMode, reff}) => {
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
                 <h4>Node JS</h4>
+                <small className='text-light'>Basic</small>
+              </div>
+            </article>
+            
+            <article className="experience_details">
+              <BsPatchCheckFill className='experience_details_icon'/>
+              <div>
+                <h4>Next JS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>

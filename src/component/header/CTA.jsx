@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import CV from '../../assets//result.pdf'
+import CV from '../../assets//GABRIEL-ATUNWA-CV.pdf'
 
 const CTA = () => {
   return (

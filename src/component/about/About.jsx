@@ -28,12 +28,12 @@ const About = ({lightMode, reff}) => {
             <article className="about_card">
               <FiUsers className='about_ico'/>
               <h5>Clients</h5>
-              <small>200+ worldwide</small>
+              <small>80+ worldwide</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className='about_ico'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>30+ Completed</small>
             </article>
           </div>
 
