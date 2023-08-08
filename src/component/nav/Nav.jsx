@@ -59,9 +59,9 @@ const Nav = ({lightMode, toggleLightMode}) => {
         <BiMessageRoundedDots className='ssvg'/>
       </a>
 
-      <a onClick={toggleLightMode}>
+      {/* <a onClick={toggleLightMode}>
         <Lightmode/>
-      </a>
+      </a> */}
     </nav>
   )
 }

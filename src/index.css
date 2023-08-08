@@ -117,17 +117,24 @@ img{
 
 /* light mode styling */
 
-.light{
-  background: rgb(166, 179, 198);
+/* .light{
+  background: white;
 }
-.light svg{
+
+.light>svg{
   color: black;
   --clr: red;
 }
 
-.light div{
+.light>div{
   color: black;
 }
+.light div>h5,h1,a{
+  color: black;
+}
+.light div>.cta>.btn{
+  color: black;
+} */
 
 /* media query for MEDIUM devices */
 
