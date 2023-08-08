@@ -6,7 +6,7 @@ const PortfolioComponent = ({portData}) => {
     <article className="portfolio_item">
       <div className="portfolio_item_image">
         {/* <img src={`'../../assets'/${image}`} alt="Portfolio Image" /> */}
-        <img src='/geoplex.png' alt="Portfolio Image" />
+        <img src={image} alt="Portfolio Image" />
       </div>
       <h3>{title}</h3>
       <div className="portfolio_item_cta">

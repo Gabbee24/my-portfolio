@@ -1,28 +1,28 @@
 [
     {
       "id": 1,
-      "image": "../../../portfolioImages/geoplex.png",
+      "image": "../../../portfolioImages/portfolio1.webp",
       "title": "Geoplex Website",
       "github": "https://github.com/Gabbee24?tab=repositories",
       "demo" : "https://geoplex-web.vercel.app"
     },
     {
       "id": 2,
-      "image": "../../../portfolioImages/carshowcase.png",
+      "image": "../../../portfolioImages/portfolio2.webp",
       "title": "Car Showcase",
       "github": "https://github.com/Gabbee24/carshowcase",
       "demo" : "https://carshowcase-ashy.vercel.app"
     },
     {
       "id": 3,
-      "image": "../../../portfolioImages/tasktracker.png",
+      "image": "../../../portfolioImages/portfolio3.webp",
       "title": "Task Tracker",
       "github": "https://github.com/Gabbee24/task-tracker",
       "demo" : "https://task-tracker-one-rho.vercel.app"
     },
     {
       "id": 4,
-      "image": "../../../portfolioImages/login.png",
+      "image": "../../../portfolioImages/portfolio4.webp",
       "title": "Login Dashboard",
       "github": "https://github.com/Gabbee24",
       "demo" : "https://logindashboardnext.vercel.app"

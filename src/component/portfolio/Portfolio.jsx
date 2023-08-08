@@ -3,7 +3,7 @@ import './Portfolio.css'
 
 import PortfolioData from './portfolio-data.json';
 
-import PortfolioComponent from './Portfolio.component';
+import PortfolioComponent from './PortfolioComponent';
 
 const Portfolio = ({lightMode, reff}) => {
 
