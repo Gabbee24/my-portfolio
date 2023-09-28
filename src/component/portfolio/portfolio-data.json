@@ -30,16 +30,16 @@
     {
       "id": 5,
       "image": "../../../portfolioImages/portfolio5.webp",
-      "title": "mens",
-      "github": "https://github.com/Gabbee24/react-form",
-      "demo" : "https://dribbble.com/Alien_pixels"
+      "title": "payslice",
+      "github": "https://dev.payslices.com",
+      "demo" : "https://dev.payslices.com"
     },
     {
         "id": 6,
         "image": "../../../portfolioImages/portfolio6.webp",
-        "title": "mens",
-        "github": "https://github.com/Gabbee24/react-form",
-        "demo" : "https://dribbble.com/Alien_pixels"
+        "title": "TML",
+        "github": "https://github.com/Gabbee24/tml2",
+        "demo" : "https://github.com/Gabbee24/tml2"
     }
   ]
   

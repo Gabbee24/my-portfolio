@@ -17,9 +17,9 @@ const Services = ({lightMode, reff}) => {
           <ul className="service_list">
             <li>
               <BiCheck className='service_list_icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>All kinds of Websites and web applications such as Ecommerce website, blog website ,portfolio website .</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service_list_icon' />
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
@@ -34,7 +34,7 @@ const Services = ({lightMode, reff}) => {
             <li>
               <BiCheck className='service_list_icon' />
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* End of UI/UX */}
@@ -48,9 +48,9 @@ const Services = ({lightMode, reff}) => {
           <ul className="service_list">
             <li>
               <BiCheck className='service_list_icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Building responsive mobile apps using React Native.</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service_list_icon' />
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
@@ -65,7 +65,7 @@ const Services = ({lightMode, reff}) => {
             <li>
               <BiCheck className='service_list_icon' />
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* end of web development */}
@@ -79,9 +79,9 @@ const Services = ({lightMode, reff}) => {
           <ul className="service_list">
             <li>
               <BiCheck className='service_list_icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Basic data analysis using Microsoft Excel, Tableau,and python.</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service_list_icon' />
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
@@ -96,7 +96,7 @@ const Services = ({lightMode, reff}) => {
             <li>
               <BiCheck className='service_list_icon' />
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
       </div>
