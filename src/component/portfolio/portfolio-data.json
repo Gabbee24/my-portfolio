@@ -37,9 +37,9 @@
     {
         "id": 6,
         "image": "../../../portfolioImages/portfolio6.webp",
-        "title": "TML",
+        "title": "TML{in progress)",
         "github": "https://github.com/Gabbee24/tml2",
-        "demo" : "https://github.com/Gabbee24/tml2"
+        "demo" : "https://tml-five.vercel.app"
     }
   ]
   
