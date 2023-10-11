@@ -144,6 +144,23 @@ const Experience = ({lightMode, reff}) => {
           </div>
         </div>
       </div>
+
+
+       {/* Requirements:
+
+4+ years of React experience.
+5+ years of overall front-end experience.
+Strong proficiency in TypeScript, React, and Redux.
+Skilled in Jest, Yarn/npm, and Webpack.
+Proficient in HTML and CSS for seamless UI integration.
+Familiarity with Git and CI/CD practices.
+Strong problem-solving skills and a passion for technology trends.
+Bonus Skills:
+
+Experience with Netlify and Gatsby.
+Expirience with Github Actions
+Expirience with SanityIO as a CMS */}
+      
     </section>
   )
 }
