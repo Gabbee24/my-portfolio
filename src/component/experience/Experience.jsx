@@ -44,6 +44,14 @@ const Experience = ({lightMode, reff}) => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className='experience_details_icon'/>
+              <div>
+                <h4>TailwindCSS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
             
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details_icon'/>
@@ -91,7 +99,7 @@ const Experience = ({lightMode, reff}) => {
 
         {/* backend */}
         <div className="experience_backend">
-          <h3>Backend Development</h3>
+          <h3> Data Analysis & Database Management</h3>
           <div className="experience_content">
 
             <article className="experience_details">
@@ -102,13 +110,13 @@ const Experience = ({lightMode, reff}) => {
               </div>
             </article>
 
-            <article className="experience_details">
+            {/* <article className="experience_details">
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
                 <h4>PHP</h4>
                 <small className='text-light'>Basic</small>
               </div>
-            </article>
+            </article> */}
 
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details_icon'/>              <div>
@@ -128,7 +136,7 @@ const Experience = ({lightMode, reff}) => {
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
-                <h4>Node JS</h4>
+                <h4>MongoDB</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
@@ -136,7 +144,7 @@ const Experience = ({lightMode, reff}) => {
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
-                <h4>Next JS</h4>
+                <h4>Excel</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>

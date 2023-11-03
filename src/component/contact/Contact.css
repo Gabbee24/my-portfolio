@@ -63,6 +63,15 @@ textarea{
     color: var(--color-white);
 }
 
+.photo{
+    height: 20px;
+    width: 20px;
+}
+
+.photoSpan{
+    display: flex;
+    justify-content: center;
+}
 
 /* media query for MEDIUM devices */
 @media screen and (max-width: 1024px){
@@ -77,4 +86,8 @@ textarea{
     .container.contact_container{
         width: var(--container-width-sm);
     }
+}
+
+.svg{
+    color: black;
 }

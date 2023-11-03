@@ -2,10 +2,10 @@ import React from 'react'
 
 // icons imported from react icons to be used for each
 //contact options
-import {MdOutlineEmail} from 'react-icons/md'
-import {IoLogoTwitter} from 'react-icons/io'
-import {FaLinkedin} from 'react-icons/fa'
-import {ImWhatsapp} from 'react-icons/im'
+import { MdOutlineEmail } from 'react-icons/md'
+import { IoLogoTwitter } from 'react-icons/io'
+import { FaLinkedin } from 'react-icons/fa'
+import { ImWhatsapp } from 'react-icons/im'
 
 //useRef imported for use of email JS
 import { useRef } from 'react';
@@ -16,7 +16,7 @@ import emailjs from 'emailjs-com'
 //import the style
 import './Contact.css';
 
-const Contact = ({lightMode, reff}) => {
+const Contact = ({ lightMode, reff }) => {
 
   const form = useRef();
 
@@ -25,7 +25,7 @@ const Contact = ({lightMode, reff}) => {
     e.preventDefault();
 
     emailjs.sendForm('service_dksah5d', 'template_4917k7q', form.current, 'AVQavJYxkMiUmPB39')
-      
+
     //to make sure the form resets back to empty field after each submit
     e.target.reset()
   };
@@ -38,26 +38,29 @@ const Contact = ({lightMode, reff}) => {
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
-            <MdOutlineEmail/>  
+            <MdOutlineEmail className='svg' />
             <h4>Email</h4>
             <h5>atunwagabriel</h5>
             <h5>@gmail.com</h5>
             <a href="mailto:atunwagabriel@gmail.com" target='_blank'>Drop a Mail</a>
           </article>
           <article className="contact_option">
-            <IoLogoTwitter/>  
-            <h4>Twitter</h4>
+            {/* <IoLogoTwitter/>   */}
+            <span className='photoSpan' >
+              <img className='photo' alt="twitter" src="/twitterx_svg.svg" />
+            </span>
+            <h4> X (Twitter)</h4>
             <h5>@gabby_gabbee</h5>
             <a href="twitter.com" target='_blank'>Tweet me</a>
           </article>
           <article className="contact_option">
-            <FaLinkedin/>  
+            <FaLinkedin className='svg' />
             <h4>LinkedIn</h4>
             <h5>Gabriel Atunwa</h5>
             <a href="https://www.linkedin.com/in/gabriel-atunwa-62b71423b/" target='_blank'>make connection</a>
           </article>
           <article className="contact_option">
-            <ImWhatsapp/>  
+            <ImWhatsapp className='svg' />
             <h4>WhatsApp</h4>
             <h5>+2348063878791</h5>
             <a href="https://api.whatsapp.com/send?phone+2348063878791" target='_blank'>Send a message</a>
