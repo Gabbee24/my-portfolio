@@ -1,10 +1,12 @@
 import React from 'react'
 import './Services.css';
 import {BiCheck} from 'react-icons/bi';
+import { motion } from 'framer-motion';
+import { navVariants } from '../../utils/motion';
 
 const Services = ({lightMode, reff}) => {
   return (
-    <section ref={reff} id='services'>
+    <motion.section variants={navVariants} initial='hidden' whileInView='show' ref={reff} id='services'>
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -100,7 +102,7 @@ const Services = ({lightMode, reff}) => {
           </ul>
         </article>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

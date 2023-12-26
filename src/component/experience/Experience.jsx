@@ -1,6 +1,8 @@
 import React from 'react'
 import './Experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs';
+import { motion } from 'framer-motion';
+import { navVariants, navVariants2, navVariants3 } from '../../utils/motion';
 
 const Experience = ({lightMode, reff}) => {
   return (
@@ -9,7 +11,7 @@ const Experience = ({lightMode, reff}) => {
       <h2>My skills</h2>
 
       <div className="container experience_container">
-        <div className="experience_frontend">
+        <motion.div variants={navVariants2(0.4)} initial='hidden' whileInView='show' className="experience_frontend">
           <h3>Front Development</h3>
           <div className="experience_content">
 
@@ -94,11 +96,11 @@ const Experience = ({lightMode, reff}) => {
             </article>
 
           </div>
-        </div>
+        </motion.div>
 
 
         {/* backend */}
-        <div className="experience_backend">
+        <motion.div variants={navVariants3(0.4)} initial='hidden' whileInView='show' className="experience_backend">
           <h3> Data Analysis & Database Management</h3>
           <div className="experience_content">
 
@@ -150,7 +152,7 @@ const Experience = ({lightMode, reff}) => {
             </article>
             
           </div>
-        </div>
+        </motion.div>
       </div>
 
 

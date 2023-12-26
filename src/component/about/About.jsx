@@ -4,6 +4,8 @@ import ME3 from '../../assets/me3.jpg';
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import { motion } from 'framer-motion';
+import { navVariants1, navVariants2 } from '../../utils/motion';
 
 const About = ({lightMode, reff}) => {
   return (
@@ -20,21 +22,21 @@ const About = ({lightMode, reff}) => {
 
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card">
+            <motion.article variants={navVariants2(0.2)} initial='hidden' whileInView='show' className="about_card">
               <FaAward className='about_ico'/>
               <h5>Experience</h5>
               <small>3+ Years Working</small>
-            </article>
-            <article className="about_card">
+            </motion.article>
+            <motion.article variants={navVariants2(0.4)} initial='hidden' whileInView='show' className="about_card">
               <FiUsers className='about_ico'/>
               <h5>Clients</h5>
               <small>20+ worldwide</small>
-            </article>
-            <article className="about_card">
+            </motion.article>
+            <motion.article variants={navVariants2(0.6)} initial='hidden' whileInView='show' className="about_card">
               <VscFolderLibrary className='about_ico'/>
               <h5>Projects</h5>
               <small>35+ Completed</small>
-            </article>
+            </motion.article>
           </div>
 
           <p> <i>
