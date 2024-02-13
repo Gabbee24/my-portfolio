@@ -8,7 +8,7 @@ const Services = ({lightMode, reff}) => {
   return (
     <motion.section variants={navVariants} initial='hidden' whileInView='show' ref={reff} id='services'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>SERVICES</h2>
 
       <div className="container services_container">
         <article className="service">
@@ -19,7 +19,7 @@ const Services = ({lightMode, reff}) => {
           <ul className="service_list">
             <li>
               <BiCheck className='service_list_icon' />
-              <p>All kinds of Websites and web applications such as Ecommerce website, blog website ,portfolio website .</p>
+              <p>All kinds of Websites and web applications such as Ecommerce website, blog website,inventory systems, booking websites ,portfolio website. . .</p>
             </li>
             {/* <li>
               <BiCheck className='service_list_icon' />

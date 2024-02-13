@@ -11,7 +11,7 @@ const Header = ({lightMode, reff}) => {
         <div id='home' className="container header_container">
             <h5>Hi, I am</h5>
             <h1>Atunwa Gabriel</h1>
-            <h5 className="text-light">FrontEnd Developer</h5>
+            <h5 className="text-light">Full Stack Developer</h5>
             <span>
               (
             <TypeAnimation

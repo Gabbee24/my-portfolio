@@ -8,11 +8,11 @@ const Experience = ({lightMode, reff}) => {
   return (
     <section ref={reff} id='experience'>
       <h5>Experiences I have</h5>
-      <h2>My skills</h2>
+      <h2>MY SKILLS</h2>
 
       <div className="container experience_container">
         <motion.div variants={navVariants2(0.4)} initial='hidden' whileInView='show' className="experience_frontend">
-          <h3>Front Development</h3>
+          <h3>Web Development (Full stack NextJS)</h3>
           <div className="experience_content">
 
             <article className="experience_details">
@@ -43,6 +43,14 @@ const Experience = ({lightMode, reff}) => {
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
                 <h4>Bootstrap</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className='experience_details_icon'/>
+              <div>
+                <h4>TypeScript</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>

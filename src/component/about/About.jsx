@@ -5,27 +5,27 @@ import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import { motion } from 'framer-motion';
-import { navVariants1, navVariants2 } from '../../utils/motion';
+import { navVariants1, navVariants2, zoomIn } from '../../utils/motion';
 
 const About = ({lightMode, reff}) => {
   return (
     <section ref={reff} id='about'>
       <h5>Get to know</h5>
-      <h2>About me</h2>
+      <h2>ABOUT ME</h2>
 
       <div className="about_container container">
-        <div className="about_me">
+        <motion.div variants={zoomIn} initial='hidden' whileInView='show' className="about_me">
           <div className="about_me_image">
             <img style={{'width': '160px'}} src={ME3} alt="About" />
           </div>
-        </div>
+        </motion.div>
 
         <div className="about_content">
           <div className="about_cards">
             <motion.article variants={navVariants2(0.2)} initial='hidden' whileInView='show' className="about_card">
               <FaAward className='about_ico'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>4+ Years Working</small>
             </motion.article>
             <motion.article variants={navVariants2(0.4)} initial='hidden' whileInView='show' className="about_card">
               <FiUsers className='about_ico'/>

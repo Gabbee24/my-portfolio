@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "../../../portfolioImages/portfolio1.webp",
+      "image": "../../../portfolioImages/geoplex.PNG",
       "title": "Geoplex Website",
       "github": "https://github.com/Gabbee24?tab=repositories",
       "demo" : "https://geoplex-web.vercel.app"
@@ -15,17 +15,17 @@
     },
     {
       "id": 3,
-      "image": "../../../portfolioImages/portfolio3.webp",
+      "image": "../../../portfolioImages/tasktracker.PNG",
       "title": "Task Tracker",
       "github": "https://github.com/Gabbee24/task-tracker",
       "demo" : "https://task-tracker-one-rho.vercel.app"
     },
     {
       "id": 4,
-      "image": "../../../portfolioImages/portfolio4.webp",
-      "title": "Login Dashboard",
-      "github": "https://github.com/Gabbee24",
-      "demo" : "https://logindashboardnext.vercel.app"
+      "image": "../../../portfolioImages/vintage.PNG",
+      "title": "Vintage Properties",
+      "github": "https://github.com/Gabbee24/vintage",
+      "demo" : "https://https://www.vintageatlanticproperties.com"
     },
     {
       "id": 5,

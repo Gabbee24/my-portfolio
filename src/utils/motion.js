@@ -43,7 +43,7 @@ export const navVariants3 = (delay) => ({
 export const navVariants = {
   hidden: {
     opacity: 0,
-    y: 100,
+    y: 150,
     transition: {
       type: 'spring',
       stiffness: 300,
@@ -97,29 +97,7 @@ export const planetVariant = {
         delay: 0.6,
       },
     },
-  };
-  
-  export const navVariants1 = {
-    hidden: {
-      opacity: 0,
-      x: 100,
-      transition: {
-        type: 'spring',
-        stiffness: 300,
-        damping: 140,
-      },
-    },
-    show: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        type: 'spring',
-        stiffness: 80,
-        delay: 1,
-      },
-    },
-  };
-  
+  };  
   
   export const slideIn = (direction, type, delay, duration) => ({
     hidden: {
@@ -148,99 +126,6 @@ export const planetVariant = {
     },
   });
   
-  export const textVariant = (delay) => ({
-    hidden: {
-      y: 50,
-      opacity: 0,
-    },
-    show: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        type: 'spring',
-        duration: 1.25,
-        delay,
-      },
-    },
-  });
-  export const textVariant3 = (delay) => ({
-    hidden: {
-      x: 100,
-      opacity: 0,
-    },
-    show: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        type: 'spring',
-        duration: 1.25,
-        delay,
-      },
-    },
-  });
-  
-  export const textContainer = {
-    hidden: {
-      opacity: 0,
-    },
-    show: (i = 1) => ({
-      opacity: 1,
-      transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
-    }),
-  };
-  
-  export const textVariant2 = {
-    hidden: {
-      opacity: 0,
-      y: 20,
-    },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: 'tween',
-        ease: 'easeIn',
-        duration: 1.25,
-        delay: 0.5,
-      },
-    },
-  };
-  
-  export const fadeIn = (direction, type, delay, duration) => ({
-    hidden: {
-      x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
-      y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
-      opacity: 0,
-    },
-    show: {
-      x: 0,
-      y: 0,
-      opacity: 1,
-      transition: {
-        type,
-        delay,
-        duration,
-        ease: 'easeOut',
-      },
-    },
-  });
-  
-  export const planetVariants = (direction) => ({
-    hidden: {
-      x: direction === 'left' ? '-100%' : '100%',
-      rotate: 120,
-    },
-    show: {
-      x: 0,
-      rotate: 0,
-      transition: {
-        type: 'spring',
-        duration: 1.8,
-        delay: 0.5,
-      },
-    },
-  });
-  
   export const zoomIn = {
     hidden: {
       scale: 0,
@@ -251,31 +136,9 @@ export const planetVariant = {
       opacity: 1,
       transition: {
         type: 'tween',
-        delay: 7.4,
+        delay: 0.6,
         duration: 1 ,
         ease: 'easeOut',
       },
     },
-  };
-  
-  export const footerVariants = {
-    hidden: {
-      opacity: 0,
-      y: 50,
-      transition: {
-        type: 'spring',
-        stiffness: 300,
-        damping: 140,
-      },
-    },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: 'spring',
-        stiffness: 80,
-        delay: 0.5,
-      },
-    },
-  };
-  
+  };  

@@ -37,7 +37,7 @@
 /* media query for MEDIUM devices */
 @media screen and (max-width: 1024px){
     .container.testimonial_cotainer{
-        width: 60%;
+        width: 80%;
     }
 }
 
