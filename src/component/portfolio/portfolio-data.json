@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "image": "../../../portfolioImages/portfolio2.webp",
+      "image": "../../../portfolioImages/carshowcase.PNG",
       "title": "Car Showcase",
       "github": "https://github.com/Gabbee24/carshowcase",
       "demo" : "https://carshowcase-ashy.vercel.app"
@@ -40,6 +40,27 @@
         "title": "TML{in progress)",
         "github": "https://github.com/Gabbee24/tml2",
         "demo" : "https://tml-xi.vercel.app"
+    },
+    {
+        "id": 7,
+        "image": "../../../portfolioImages/weather.PNG",
+        "title": "Weather forcast",
+        "github": "https://github.com/Gabbee24/weather",
+        "demo" : "https://weather-one-lac.vercel.app/"
+    },
+    {
+        "id": 8,
+        "image": "../../../portfolioImages/fashola.PNG",
+        "title": "Inventory System",
+        "github": "https://github.com/Gabbee24/fashola2",
+        "demo" : "https://fashola2.vercel.app/"
+    },
+    {
+        "id": 9,
+        "image": "../../../portfolioImages/azaoil.PNG",
+        "title": "Aza Oil",
+        "github": "https://github.com/Gabbee24",
+        "demo" : "https://azatrailers.ng/"
     }
   ]
   
