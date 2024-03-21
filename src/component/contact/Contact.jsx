@@ -6,6 +6,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { IoLogoTwitter } from 'react-icons/io'
 import { FaLinkedin } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
+import { useState } from 'react'
 
 //useRef imported for use of email JS
 import { useRef } from 'react';
@@ -30,6 +31,10 @@ const Contact = ({ lightMode, reff }) => {
     e.target.reset()
   };
 
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
   return (
     <section ref={reff} id='contact'>
       <h5>Get in touch</h5>
@@ -41,8 +46,8 @@ const Contact = ({ lightMode, reff }) => {
             <MdOutlineEmail className='svg' />
             <h4>Email</h4>
             <h5>atunwagabriel</h5>
-            <h5>@gmail.com</h5>
-            <a href="mailto:atunwagabriel@gmail.com" target='_blank'>Drop a Mail</a>
+            <h5>@yahoo.com</h5>
+            <a href="mailto:atunwagabriel@yahoo.com" target='_blank'>Drop a Mail</a>
           </article>
           <article className="contact_option">
             {/* <IoLogoTwitter/>   */}
@@ -67,11 +72,37 @@ const Contact = ({ lightMode, reff }) => {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your full name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn_primary'>Send Message</button>
+        {/* <form ref={form} onSubmit={sendEmail}> */}
+        <form onSubmit={(e) =>{e.preventDefault()}} >
+          <input
+            type="text"
+            name='name'
+            placeholder='Your full name'
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input
+            type="email"
+            name='email'
+            placeholder='Your Email'
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder='Your Message'
+            required
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          ></textarea>
+          {/* <button type='submit' className='btn btn_primary'>Send Message</button> */}
+          <a className='btn btn_primary' href={`mailto:atunwagabriel@yahoo.com&subject=Available Full stack role&body=name:${name} email:${email} message:${message}`}>
+            {/* <button className='btn btn_primary'>Send Message</button> */}
+            Send Message
+          </a>
         </form>
 
       </div>
